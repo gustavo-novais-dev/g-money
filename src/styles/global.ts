@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     --background: #f0f2f5;
     --red: #e52e4d;
     --blue: #5429cc;
+    --green: #33CC95;
 
     --blue-light: #6933ff;
 
@@ -19,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 html{
@@ -38,7 +40,6 @@ body{
 }
 
 body, input, textarea, button{
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
