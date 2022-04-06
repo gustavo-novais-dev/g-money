@@ -26,15 +26,13 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
     function handleCreateNewTransaction(event: FormEvent) {
         event.preventDefault();
 
-    }   
-
-    createTransaction({
-        title,
-        amount: value,
-        category,
-        type,
-    })
-
+        createTransaction({
+            title,
+            amount, 
+            category, 
+            type,
+        })
+    }
 
     return (
 
